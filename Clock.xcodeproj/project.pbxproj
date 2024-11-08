@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AF24418C2CDE532E0017978F /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2441882CDE532E0017978F /* ClockApp.swift */; };
+		AF24418D2CDE532E0017978F /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2441892CDE532E0017978F /* LandingView.swift */; };
+		AF24418E2CDE532E0017978F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2441852CDE532E0017978F /* Preview Assets.xcassets */; };
+		AF24418F2CDE532E0017978F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2441872CDE532E0017978F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AF24416E2CDE4EB30017978F /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2441852CDE532E0017978F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF2441872CDE532E0017978F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF2441882CDE532E0017978F /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
+		AF2441892CDE532E0017978F /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AF2441702CDE4EB30017978F /* Clock */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Clock;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AF24416B2CDE4EB30017978F /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		AF2441652CDE4EB30017978F = {
 			isa = PBXGroup;
 			children = (
-				AF2441702CDE4EB30017978F /* Clock */,
+				AF2441842CDE52910017978F /* New Group */,
 				AF24416F2CDE4EB30017978F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,41 @@
 				AF24416E2CDE4EB30017978F /* Clock.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2441842CDE52910017978F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AF24418B2CDE532E0017978F /* Clock */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		AF2441862CDE532E0017978F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF2441852CDE532E0017978F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF24418B2CDE532E0017978F /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				AF2441882CDE532E0017978F /* ClockApp.swift */,
+				AF2441912CDE53610017978F /* Views */,
+				AF2441862CDE532E0017978F /* Preview Content */,
+				AF2441872CDE532E0017978F /* Assets.xcassets */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		AF2441912CDE53610017978F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF2441892CDE532E0017978F /* LandingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +97,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AF2441702CDE4EB30017978F /* Clock */,
 			);
 			name = Clock;
 			packageProductDependencies = (
@@ -109,6 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF24418E2CDE532E0017978F /* Preview Assets.xcassets in Resources */,
+				AF24418F2CDE532E0017978F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF24418C2CDE532E0017978F /* ClockApp.swift in Sources */,
+				AF24418D2CDE532E0017978F /* LandingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
