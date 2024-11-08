@@ -35,7 +35,7 @@
 		AF2441652CDE4EB30017978F = {
 			isa = PBXGroup;
 			children = (
-				AF2441842CDE52910017978F /* New Group */,
+				AF24418B2CDE532E0017978F /* Clock */,
 				AF24416F2CDE4EB30017978F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,14 +46,6 @@
 				AF24416E2CDE4EB30017978F /* Clock.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AF2441842CDE52910017978F /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				AF24418B2CDE532E0017978F /* Clock */,
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		AF2441862CDE532E0017978F /* Preview Content */ = {
@@ -69,8 +61,8 @@
 			children = (
 				AF2441882CDE532E0017978F /* ClockApp.swift */,
 				AF2441912CDE53610017978F /* Views */,
-				AF2441862CDE532E0017978F /* Preview Content */,
 				AF2441872CDE532E0017978F /* Assets.xcassets */,
+				AF2441862CDE532E0017978F /* Preview Content */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
